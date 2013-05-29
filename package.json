@@ -1,0 +1,26 @@
+{
+  "name": "level-window",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/level-window",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/level-window.git"
+  },
+  "dependencies": {
+    "pull-stream": "~2.18.2",
+    "pull-level": "~1.1.1"
+  },
+  "devDependencies": {
+    "pull-stream": "~2.18.2",
+    "tape": "~1.0.2",
+    "pull-level": "~1.1.1",
+    "level-test": "~1.1.1",
+    "level-sublevel": "~4.6.5"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
