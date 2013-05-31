@@ -8,6 +8,9 @@ levelup plugin for creating views on realtime time series data.
 [![testling](http://ci.testling.com/dominictarr/level-window.png)
 ](http://ci.testling.com/dominictarr/level-window)
 
+To be used with [pull-window](https://github.com/dominictarr/pull-window)
+
+<!--
 ## Example
 
 Sum every 10 items stored into leveldb.
@@ -39,7 +42,7 @@ ws.end()
 this will feed each group of 10 records into a window,
 and reduce them together.
 
-
+-->
 ## License
 
 MIT
