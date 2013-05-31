@@ -1,7 +1,7 @@
 {
   "name": "level-window",
   "description": "window operations on timeseries in level",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/dominictarr/level-window",
   "repository": {
     "type": "git",
