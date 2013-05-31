@@ -1,6 +1,6 @@
 {
   "name": "level-window",
-  "description": "",
+  "description": "window operations on timeseries in level",
   "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/level-window",
   "repository": {
@@ -8,15 +8,17 @@
     "url": "git://github.com/dominictarr/level-window.git"
   },
   "dependencies": {
-    "pull-stream": "~2.18.2",
-    "pull-level": "~1.1.1"
+    "pull-stream": ">=2.18 <3",
+    "pull-level": ">=1.1.1 <2",
+    "level-peek": "1",
+    "pull-window": "2"
   },
   "devDependencies": {
-    "pull-stream": "~2.18.2",
-    "tape": "~1.0.2",
-    "pull-level": "~1.1.1",
-    "level-test": "~1.1.1",
-    "level-sublevel": "~4.6.5"
+    "tape": "1",
+    "level-test": ">=1.2 <2",
+    "level-sublevel": ">=4.6 <5",
+    "monotonic-timestamp": "0.0.8",
+    "optimist": "~0.5.2"
   },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
